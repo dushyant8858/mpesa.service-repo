@@ -9,7 +9,7 @@ files:
     destination: /var/www/html
   - source: /cr.json
     destination: /var/www/html
-  - source: /nginx.conf
+  - source: /nginx.config
     destination: /var/www/html
   - source: /operators.json
     destination: /var/www/html
