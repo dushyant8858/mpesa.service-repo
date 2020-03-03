@@ -1,0 +1,144 @@
+{
+	"reservation_response": [],
+	"referral_code": "X",
+	"order_reference": "637175279866468328",
+	"booking_channel": "ussd",
+	"operator": {
+		"alias": "easy_coach",
+		"name": "EasyCoach"
+	},
+	"payee": {
+		"phone": "254722795617",
+		"email": "",
+		"full_name": "Anastasia Agoro"
+	},
+	"paybill": 796440,
+	"trip": {
+		"schedule_id": "8312",
+		"departure_time": "2020-02-17 20:30",
+		"arrival_time": "2020-02-17 20:30",
+		"departure_date": "2020-02-17",
+		"fare": "",
+		"route": {
+			"title": "Oyugis to Nairobi",
+			"from": "Oyugis",
+			"to": "Nairobi",
+			"schedule_id": "8312",
+			"schedule_code": "8004",
+			"bus_id": "8422",
+			"seats_available": 13,
+			"bus_capacity": "38"
+		}
+	},
+	"passengers": [
+		{
+			"names": "Anastasia Agoro",
+			"id_passport": "9195118",
+			"nationality": "Kenyan",
+			"fare": "950.00",
+			"seat_no": "6C",
+			"seat": {
+				"id": "6C",
+				"title": "",
+				"fare": "950.00",
+				"class": "normal"
+			}
+		}
+	],
+	"total_fare": 950,
+	"booking_organisation_id": "",
+	"booking_agent_id": "",
+	"incoming_payload": {
+		"booking_channel": "ussd",
+		"transaction_reference": "SD5e4a308501397",
+		"referral_code": "X",
+		"promo_code": null,
+		"selected_bus": {
+			"from": "Oyugis",
+			"to": "Nairobi",
+			"departure_date": "17/02/2020",
+			"bus_type_id": null,
+			"operator": {
+				"alias": "easy_coach",
+				"name": "EasyCoach"
+			},
+			"is_express_travel": false,
+			"number_of_booked_seats": 24,
+			"id": "8422",
+			"make": null,
+			"model": null,
+			"route_id": null,
+			"route_schedule_id": "8312",
+			"route_schedule_code": "8004",
+			"departure_time": "20:30",
+			"departure_timestamp": 1581960600,
+			"arrival_time": "01:00",
+			"number_of_available_seats": 13,
+			"fare": "950.00",
+			"boarding_points": [
+				{
+					"id": 1035,
+					"name": "OYUGIS",
+					"address": "OPPOSITE OYUGIS KENDU BAY JUNCTION"
+				}
+			],
+			"dropoff_points": [],
+			"seats": [],
+			"seat_types": [
+				{
+					"id": "",
+					"alias": "normal",
+					"fare": "950.00",
+					"name": "Normal",
+					"currency": "KES",
+					"available_seat_ids": []
+				}
+			],
+			"number_of_window_seats": null,
+			"last_booking": null,
+			"amenities": [],
+			"origin_city_id": 1045,
+			"destination_city_id": 1,
+			"bus_capacity": "38",
+			"trip_id": "",
+			"reporting_time": ""
+		},
+		"payee": {
+			"phone_number": "254722795617"
+		},
+		"boarding_point": {
+			"id": 1035,
+			"name": "OYUGIS",
+			"address": "OPPOSITE OYUGIS KENDU BAY JUNCTION"
+		},
+		"date_of_travel": "17/02/2020",
+		"departure_date": "17/02/2020",
+		"departure_time": "20:30",
+		"arrival_time": "01:00",
+		"route_schedule_id": "8312",
+		"operator": {
+			"alias": "easy_coach",
+			"name": "EasyCoach"
+		},
+		"origin_city_name": "Oyugis",
+		"destination_city_name": "Nairobi",
+		"origin_city_id": "1045",
+		"destination_city_id": "1",
+		"passengers": [
+			{
+				"names": "Anastasia Agoro",
+				"id_passport": "9195118",
+				"nationality": "Kenyan",
+				"fare": "950.00",
+				"seat_no": "6C",
+				"seat": {
+					"id": "6C",
+					"title": "",
+					"fare": "950.00",
+					"class": "normal"
+				}
+			}
+		],
+		"children": []
+	}
+}

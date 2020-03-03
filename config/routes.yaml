@@ -1,0 +1,25 @@
+# validate:
+#     path: /validate/{operator}
+#     controller: App\Controller\ValidationController
+#     defaults: { operator: 'buupass' }
+
+# confirm:
+#     path: /confirm/{operator}
+#     controller: App\Controller\ConfirmationController
+#     defaults: { operator: 'buupass' }
+
+# stk:
+#     path: /stk/{operator}
+#     controller: App\Controller\StkController
+#     defaults: { operator: 'buupass' }
+
+# reconcile:
+#     path: /reconcile/{operator}
+#     controller: App\Controller\ReconciliationController
+#     defaults: { operator: 'buupass' }
+
+# status:
+#     path: /status/{transaction}/{operator}
+#     controller: App\Controller\StatusController
+#     defaults: { operator: 'buupass' }
+
