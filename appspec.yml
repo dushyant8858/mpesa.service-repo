@@ -21,7 +21,7 @@ files:
     destination: /var/www/html 
   - source: /support.json
     destination: /var/www/html
-  - source: /sympony.lock
+  - source: /symfony.lock
     destination: /var/www/html
   - source: /templates
     destination: /var/www/html
