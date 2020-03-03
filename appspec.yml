@@ -33,9 +33,6 @@ files:
     destination: /var/www/html	
 hooks:
    BeforeInstall:
-    - location: scripts/enable_app.sh
+    - location: scripts/composer_install.sh
       runas: root 
-   ApplicationStop:
-    - location: scripts/stop_server.sh
-      timeout: 300
-      runas: root
+   
