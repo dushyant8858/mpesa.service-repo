@@ -34,5 +34,5 @@ files:
 hooks:
    BeforeInstall:
     - location: scripts/composer_install.sh
-      runas: codedeployuser 
+      runas: root 
    
