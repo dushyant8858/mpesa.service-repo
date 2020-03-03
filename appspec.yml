@@ -1,37 +1,41 @@
 version: 0.0
 os: linux
 files:
-  - source: /bin
+  - source: /app
+    destination: /var/www/html
+  - source: /artisan
+    destination: /var/www/html
+  - source: /bootstrap
     destination: /var/www/html
   - source: /composer.json
     destination: /var/www/html
   - source: /composer.lock
     destination: /var/www/html
-  - source: /cr.json
+  - source: /database
+    destination: /var/www/html
+  - source: /logs
     destination: /var/www/html
   - source: /nginx.config
     destination: /var/www/html
-  - source: /operators.json
-    destination: /var/www/html
-  - source: /phpunit.xml.dist
-    destination: /var/www/html
+  - source: /phpunit.xml
+    destination: /var/www/html 
   - source: /public
     destination: /var/www/html
-  - source: /src   
-    destination: /var/www/html 
-  - source: /support.json
+  - source: /resources
     destination: /var/www/html
-  - source: /symfony.lock
+  - source: /routes
     destination: /var/www/html
-  - source: /templates
+  - source: /scripts
     destination: /var/www/html
+  - source: /storage
+    destination: /var/www/html
+  - source: /tests
+    destination: /var/www/html	
 hooks:
    BeforeInstall:
-    - location: scripts/install_dependencies.sh
+    - location: scripts/app_enable.sh
       runas: root
-    - location: scripts/start_server.sh
-      timeout: 300
-      runas: root
+    - 
    ApplicationStop:
     - location: scripts/stop_server.sh
       timeout: 300

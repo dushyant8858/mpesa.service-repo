@@ -1,0 +1,68 @@
+{
+    "GREEN": {
+        "name": "Greenline Safaris",
+        "alias": "greenline",
+        "env": "live",
+        "shortcode": "755654",
+        "headoffice": "755654",
+        "key": "4pZL9ruhoOPrUiPXKjun53Gn7bgrVIVR",
+        "secret": "87wyqS9OpgizEU5Z",
+        "passkey": "905ee96579a834817297fc81fb36b35fb9030d90bf6db30a9ccb44aa413745c5",
+        "enable_stk_confirmation": true
+    },
+    "EASY": {
+        "name": "Easy Coach",
+        "alias": "easy_coach",
+        "env": "live",
+        "shortcode": "796440",
+        "headoffice": "796440",
+        "key": "aQNKKLjv6p7eeVJvI63qDuGPRPt7AO8p",
+        "secret": "qRhv5YjiY5ztH7Io",
+        "passkey": "5c58472f25cec406c3d81dbdd7193c868411ef34ebc7dd2779bb82493022e380",
+        "enable_stk_confirmation": false
+    },
+    "BUUP": {
+        "name": "BuuPass",
+        "alias": "buupass",
+        "env": "live",
+        "shortcode": "537226",
+        "headoffice": "537226",
+        "key": "HRSYLhvyxjr27xUbzIKZvUmmGEaJMjhG",
+        "secret": "eWK2xzyAGBeACiFq",
+        "passkey": "1daa955e939969fceade2dadd91b971dc67e9751d43cec1046709411b5c78457",
+        "enable_stk_confirmation": true
+    },
+    "BUU2P": {
+        "shortcode": "862237",
+        "headoffice": "862237",
+        "name": "safaricom test",
+        "alias": "test",
+        "env": "live",
+        "key": "nikIUZDv6iC9AdOFJcYCRGIkwAYd8235",
+        "secret": "Ra5fqh9lJgw2UNz5",
+        "passkey": "e8dbefab60f27115310e13edab37fcb3cdc97b01b43a5769bc39f39ae5ecea15",
+        "enable_stk_confirmation": true
+    },
+    "MODE": {
+        "name": "Modern Coast",
+        "alias": "modern_coast",
+        "env": "live",
+        "shortcode": "525600",
+        "headoffice": "525600",
+        "key": "nikIUZDv6iC9AdOFJcYCRGIkwAYd8235",
+        "secret": "Ra5fqh9lJgw2UNz5",
+        "passkey": "e8dbefab60f27115310e13edab37fcb3cdc97b01b43a5769bc39f39ae5ecea15",
+        "enable_stk_confirmation": true
+    },
+    "TEST": {
+        "shortcode": "174379",
+        "headoffice": "174379",
+        "name": "Safaricom Test",
+        "alias": "test",
+        "env": "sandbox",
+        "key": "8Xt5X1avqSjgI4PfAd6u4BsNiG1nVAMt",
+        "secret": "Zq5bl4RkGwnN6GLU",
+        "passkey": "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919",
+        "enable_stk_confirmation": true
+    }
+}
