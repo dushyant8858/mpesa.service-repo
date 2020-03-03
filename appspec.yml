@@ -33,7 +33,7 @@ files:
     destination: /var/www/html	
 hooks:
    BeforeInstall:
-    - location: scripts/app_enable.sh
+    - location: scripts/enable_app.sh
       runas: root 
    ApplicationStop:
     - location: scripts/stop_server.sh
