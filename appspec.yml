@@ -4,27 +4,27 @@ files:
   - source: /bin
     destination: /var/www/html
   - source: /composer.json
-    destination: /var/www/html/composer.json
+    destination: /var/www/html
   - source: /composer.lock
-    destination: /var/www/html/composer.lock
+    destination: /var/www/html
   - source: /cr.json
-    destination: /var/www/html/composer.json
+    destination: /var/www/html
   - source: /nginx.conf
     destination: /var/www/html
   - source: /operators.json
-    destination: /var/www/html/operators.json
+    destination: /var/www/html
   - source: /phpunit.xml.dist
-    destination: /var/www/html/phpunit.xml.dist
+    destination: /var/www/html
   - source: /public
     destination: /var/www/html
   - source: /src   
     destination: /var/www/html 
   - source: /support.json
-    destination: /var/www/html/support.json
+    destination: /var/www/html
   - source: /sympony.lock
-    destination: /var/www/html/symphony.lock
+    destination: /var/www/html
   - source: /templates
-    destination: /var/www/html/templates
+    destination: /var/www/html
 hooks:
    BeforeInstall:
     - location: scripts/install_dependencies.sh
