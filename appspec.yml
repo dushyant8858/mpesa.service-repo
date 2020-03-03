@@ -38,7 +38,7 @@ hooks:
     - location: aws-scripts/install_dependencies.sh
       timeout: 300
       runas: root
-   AfterInstall:
+  AfterInstall:
     - location: scripts/composer_install.sh
       timeout: 300
       runas: root
