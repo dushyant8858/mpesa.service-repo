@@ -1,6 +1,6 @@
 #!/bin/bash
-#cd /var/www/html
+cd /var/www/html
 pwd 
 ls -al
-composer install 
+composer install -n
 composer dump-autoload -o 
