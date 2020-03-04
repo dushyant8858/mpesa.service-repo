@@ -35,7 +35,7 @@ files:
   #   destination: /var/www/html	
 hooks:
   BeforeInstall:
-    - location: aws-scripts/install_dependencies.sh
+    - location: scripts/install_dependencies.sh
       timeout: 300
       runas: root
   AfterInstall:
